@@ -65,7 +65,7 @@ defmodule Exshape.Mixfile do
       {:elixir_uuid, "~> 1.2"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:poison, "~> 3.1", only: :test},
-      {:rustler, "~> 0.21.1", sparse: "rustler_mix"},
+      {:rustler, github: "rjmac/rustler", ref: "1f5b4d02e94ff9d7c316f5393008bdfcfd95ffb5", sparse: "rustler_mix"},
     ]
   end
 end
